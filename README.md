@@ -45,8 +45,6 @@ This repository contains code implementations of various data structures and alg
 
 ### Heap
 
-### Graph
-
 ## Algorithms
 
 ### Sorting
