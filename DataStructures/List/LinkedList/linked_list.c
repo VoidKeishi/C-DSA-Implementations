@@ -86,15 +86,13 @@ void deleteNode(LinkedList* list, int key) {
     free(temp);
 }
 
-
-
 int main(){
     // Example usage
     // Create a new node
     Node* a = createNode(5);
     // Initialize a linked list
     LinkedList* b = (LinkedList*)malloc(sizeof(LinkedList));
-    initList(b);
+    initList(&b);
     // Insert a node at the beginning
     insertAtBeginning(b, 10);
     // Insert a node at the end
